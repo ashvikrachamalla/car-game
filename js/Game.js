@@ -96,6 +96,7 @@ class Game {
       gameState = 2;
       player.rank+=1;
       player.update();
+      player.distance = displayHeight*5;
       Player.updatecarsatend(player.rank);
     }
     drawSprites();
